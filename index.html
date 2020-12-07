@@ -27,9 +27,9 @@
   </footer>
   
   <script>
-    let refer = document.referrer;
+    const paths = location.pathname.split('/');
     
-    console.log(refer);
+    console.log(paths);
   </script>
 
   <script defer src="scripts.js"></script>
